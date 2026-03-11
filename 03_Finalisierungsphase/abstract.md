@@ -1,4 +1,4 @@
-﻿# Abstract – Buchtausch App Datenbankprojekt
+﻿# Abstract - Buchtausch App Datenbankprojekt
 
 ---
 
@@ -24,10 +24,9 @@ Zwei Dreifachbeziehungen bilden die zentralen Abläufe ab: `slot_signups` verkn�
 
 **DBMS:** PostgreSQL. Eine freie Open-Source Lösung mit Unterstützung für `CHECK`-Constraints und `ON DELETE CASCADE/RESTRICT`.
 
-**Testdaten:** 12 Nutzende, 12 Bücher (inkl. 4 Manga in verschiedenen Sprachen), 16 Zeitslots und 10 Ausleihen — aktive, überfällige und zurückgegebene Ausleihen sind abgedeckt.
+**Testdaten:** 12 Nutzer, 12 Bücher, 16 Zeitslots und 10 Ausleihen. Aktive, überfällige und zurückgegebene Ausleihen sind abgedeckt.
 
 **Dokumentation:** `walkthrough.sql` simuliert eine vollständige Interaktion in 11 Schritten; `queries.sql` enthält 21 kommentierte Abfrage- und Eingabe-Vorlagen für den realen Betrieb.
 
-**Versionsverwaltung:** Der gesamte Code wurde in einem öffentlichen GitHub-Repository versioniert.
 
-> GitHub Repository: `<!-- PERSONALISIEREN: GitHub-Link hier einfügen -->`
+> [Github Repository des Projekts](<https://github.com/NiklasVelo/Book-Data-Mart>)

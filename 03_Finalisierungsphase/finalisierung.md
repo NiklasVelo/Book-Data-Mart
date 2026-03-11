@@ -1,12 +1,11 @@
-﻿# Buchtausch-App  Abschlussdokumentation
-### Portfoliokurs DLBDSPBDM01 | IU Internationale Hochschule
+﻿# Buchtausch App
 ### Finalisierungsphase
 
 ---
 
 ## 1. Systembeschreibung und Funktionalität
 
-Die entwickelte Datenbank bildet das Rückgrat einer Buchtausch-App, die es Mitgliedern einer lokalen Gemeinschaft ermöglicht, Bücher gegenseitig auszuleihen. Das System wurde als relationale PostgreSQL-Datenbank in der dritten Normalform (3NF) implementiert.
+Die entwickelte Datenbank bildet die Struktur einer Buchtausch App, die es Mitgliedern einer lokalen Gemeinschaft ermöglicht, Bücher gegenseitig auszuleihen. Das System wurde als relationale PostgreSQL-Datenbank in der dritten Normalform (3NF) implementiert.
 
 ### Kernfunktionen
 
@@ -90,6 +89,6 @@ Das Schema entspricht der dritten Normalform:
 
 ### GitHub Repository
 
-[Github Repository des Projekts](<https://github.com/NiklasVelo/Book-Data-Mart>)
+> [Github Repository des Projekts](https://github.com/NiklasVelo/Book-Data-Mart)
 
 ---
