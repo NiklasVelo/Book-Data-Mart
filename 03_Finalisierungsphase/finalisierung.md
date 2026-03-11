@@ -1,5 +1,5 @@
 ﻿# Buchtausch App
-### Finalisierungsphase
+## Finalisierungsphase
 
 ---
 
@@ -61,7 +61,7 @@ Die entwickelte Datenbank bildet die Struktur einer Buchtausch App, die es Mitgl
 > ```sql
 > SELECT pg_size_pretty(pg_database_size('buchtausch_db')) AS datenbankgröße;
 > ```
-> Typischer Wert mit Testdaten: ca. **810 MB** (inkl. Systemkatalog und Indizes).
+> Typischer Wert mit Testdaten: ca. **8,7 MB** (inkl. Systemkatalog und Indizes).
 
 ---
 
