@@ -1,5 +1,5 @@
 ﻿# Buchtausch-App – Datenbankprojekt
-### Portfoliokurs DLBDSPBDM01 | IU Internationale Hochschule
+### Portfoliokurs DLBDSPBDM01_D | IU Internationale Hochschule
 
 Eine relationale PostgreSQL-Datenbank für eine App, die das Ausleihen und Zurückgeben von Büchern in einer lokalen Gemeinschaft ermöglicht.
 
