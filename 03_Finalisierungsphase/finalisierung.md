@@ -81,8 +81,6 @@ Das Schema entspricht der dritten Normalform:
 
 **Status nicht gespeichert:** `loans.status` wird nicht als Attribut gespeichert, sondern per `CASE`-Ausdruck aus `due_date` und `return_date` abgeleitet. Dies vermeidet Inkonsistenzen und ist semantisch korrekt.
 
-**Einfache Standortsuche:** Statt GPS-Koordinaten und einer räumlichen Extension (PostGIS) wird die Suche auf Stadtebene über `postal_codes.city` realisiert. Dies ist für eine Community-App ausreichend und vermeidet unnötige Komplexität.
-
 **Lifecycle von `slot_signups`:** Ein Pickup-Signup hat seinen Zweck erfüllt, sobald das Buch abgeholt wurde. Nach Rückgabe wird er gelöscht: `UNIQUE(listing_id)` wird freigegeben und das Exemplar kann erneut reserviert werden.
 
 ---
