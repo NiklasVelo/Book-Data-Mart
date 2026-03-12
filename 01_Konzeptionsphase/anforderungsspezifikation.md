@@ -88,4 +88,5 @@ Das Datenbankschema wird **relational** und nach der **dritten Normalform** entw
 
 ## 4. Datenbankstruktur Entity Relationship Modell
 
-*Kommt Bald*
+![ER-Modell der Buchtausch App](../Bilder/ERModell.png)
+
